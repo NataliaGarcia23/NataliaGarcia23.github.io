@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('imagenes/fondo4.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #575757;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.box {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.profile {
+  color: rgb(255, 255, 255);
+}
+
+.profile h1 {
+  font-size: 54px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile h2 {
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: #dbdbdb;
+  margin-bottom: 20px;
+}
+
+.profile p {
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: #aaaaaa;
+  margin-bottom: 20px;
+  
+}
+
+.profile button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0284a5; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.profile button:hover {
+  background-color: #0f649c;
+  transform: scale(1.1);
+}
