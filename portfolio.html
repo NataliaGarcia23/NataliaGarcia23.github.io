@@ -15,10 +15,65 @@
           <li><a href="aboutme.html">Sobre Mí</a></li>
           <li><a href="formacion.html">Formación</a></li>
           <li><a href="tools.html">Herramientas y Tecnologías</a></li>
-          <li><a href="portfolio.html">Portafolio</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
-      </nav>
+    </nav>
+
+      <div class="box">
+        <div class="intro-portfolio">
+          <h1>Portfolio</h1>
+          <p> Aqui muestro alguno de los proyectos que he realizado a lo largo de la carrera. Además, permite el acceso al respositorio en GitHub donde está el proyecto seleccionado para mejor visualización</p>
+        </div>
+
+        <section class="portfolio-section">
+          <div class="portfolio-box" style="background-image: url('imagenes/polenTracker.png');">
+            <div class="overlay">
+              <div class="project" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="navigateToURL('https://github.com/NataliaGarcia23/proyecto_PolenTracker')">
+                <div class="project-info">
+                    <h3>PolenTracker</h3>
+                    <p>PolenTracker es una aplicación web diseñada para ayudar a las personas con alergias y asma, proporcionando información actualizada y precisa sobre la calidad del aire y los niveles de polen en su región. Este proyecto tiene como objetivo mejorar la calidad de vida de estos individuos, permitiéndoles anticiparse a los brotes alérgicos y tomar medidas preventivas. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="portfolio-box" style="background-image: url('imagenes/tienda.PNG');">
+            <div class="overlay">
+              <div class="project" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="navigateToURL('https://github.com/NataliaGarcia23/proyecto_tienda')">
+                <div class="project-info">
+                    <h3>Tienda de ropa</h3>
+                    <p>Simulación de una tienda de ropa con la implementación de un sistema de búsqueda de productos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="portfolio-box" style="background-image: url('imagenes/videojuego.png');">
+            <div class="overlay">
+              <div class="project" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="navigateToURL('https://github.com/NataliaGarcia23/proyecto_videojuego')">
+                <div class="project-info">
+                    <h3>Videojuego</h3>
+                    <p>Videojuego desarrollado en la asignatura de multimedia que se sumerge en un entorno marino donde los jugadores se embarcan en una búsqueda del tesoro.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="portfolio-box" style="background-image: url('imagenes/protectora.PNG');">
+            <div class="overlay">
+              <div class="project" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="navigateToURL('https://github.com/NataliaGarcia23/proyecto_protectora')">
+                <div class="project-info">
+                    <h3>Protectora de animales</h3>
+                    <p>Este proyecto se basa en la realización de una interfaz gráfica (prototipo de aplicación de escritorio) sobre una protectora de animales. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <script src="js/movimiento.js"></script>
+      <script src="js/portfolio.js"></script>
 </body>
 </html>
