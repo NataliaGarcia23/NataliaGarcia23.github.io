@@ -131,7 +131,7 @@ body {
   }
   
   .momento .descripcion {
-    background-color: #768ca5;
+    background-color: #8897a8;
     border-radius: 10px;
     padding: 10px;
     line-height: 22px;
@@ -148,12 +148,12 @@ body {
     width: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 12px solid #768ca5;
+    border-left: 12px solid #8897a8;
     
   }
   
   .momento:nth-child(even) .descripcion {
-    background-color: #768ca5;
+    background-color: #8897a8;
     color: rgb(0, 0, 0);
   }
   
@@ -161,7 +161,7 @@ body {
     left: -10px;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 12px solid #768ca5;
+    border-right: 12px solid #8897a8;
     border-left: none;
   }
 
