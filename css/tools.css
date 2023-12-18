@@ -30,6 +30,14 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #71b6e4;
+  }
+  .nav-links a.active {
+    color: #71b6e4;
   }
 
   .tools-section {
@@ -69,12 +77,21 @@ body {
     color: #555;
   }
 
-  .intro-formacion {
+  .intro-tools {
     text-align: center;
     margin-top: 50px;
     padding: 20px;
     font-size: 20px;
+  }
+
+  .intro-tools p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
+  
 
 .box {
   opacity: 0; 

@@ -30,7 +30,16 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
-}
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #71b6e4;
+  }
+
+  .nav-links a.active {
+    color: #71b6e4;
+  }
 
 .intro-portfolio {
     text-align: center;

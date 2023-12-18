@@ -26,6 +26,15 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #71b6e4;
+  }
+
+  .nav-links a.active {
+    color: #71b6e4;
   }
   
   .box {
@@ -36,8 +45,8 @@ body {
     border-radius: 15px;
     color: white;
     max-width: 600px;
-    opacity: 0; /* Inicialmente establece la opacidad en 0 */
-    transform: translateY(-50px); /* Desplazamiento inicial hacia arriba */
+    opacity: 0; 
+    transform: translateY(-50px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
   .box.show {
@@ -84,6 +93,6 @@ body {
   }
   
   .contact-info a:hover {
-    color: #b9b9b9;
+    color: #71b6e4;
   }
   
